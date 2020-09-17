@@ -64,18 +64,3 @@ if __name__ == "__main__":
 
     # write file in csv format
     write_file(writepath,filter_customer)
-
-
-
-
-
-
-
-
-
-
-
-# open a single folder
-#df = spark.read.format("csv").option("header","true").load("/home/omnamahshivay/Desktop/Assignment University/2013/*.csv")
-
-#df = spark.read.csv(["file:///home/omnamahshivay/Desktop/Assignment University/2013","file:///home/omnamahshivay/Desktop/Assignment University/2014","file:///home/omnamahshivay/Desktop/Assignment University/2015"],header=True)
